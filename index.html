@@ -684,7 +684,6 @@
                             <li>
                                 <a href="https://www.linkedin.com/in/surya-jeyanth-19a171216/" target="_blank"><i class="fab fa-linkedin-in d2c_icon"></i></a>
                             </li>
-                            <
                         </ul>
                     </div>
                 </div>
@@ -721,20 +720,7 @@
     emailjs.init("QPAY48ZbcEZJFNdIo");  // replace with your actual public key
   })();
 </script>
-<script>
-  document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
 
-    emailjs.sendForm("service_syiaphd", "template_rjf8mca", this)
-      .then(function(response) {
-        alert("Message sent successfully! I'll get back to you shortly.");
-      }, function(error) {
-        alert("Oops! Something went wrong. Please try again.");
-      });
-
-    this.reset();
-  });
-</script>
 </body>
 </html>
 
